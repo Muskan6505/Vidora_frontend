@@ -9,7 +9,7 @@ export default defineConfig({
   server: {
     proxy: {
       "/api": {
-        target: "https://vidora-t0tt.onrender.com",
+        target: "http://localhost:8000",
         changeOrigin: true,
         secure: false,
       },
